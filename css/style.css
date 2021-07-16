@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+body{
+font-family: 'Roboto', sans-serif;
+background: #2c3e50;
+
+}
+nav{
+ position: relative;
+
+ width: 700px;
+ height: 60px;
+ background-color: #34495e;
+ border-radius: 5px;
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+ box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+
+
+
+}
+nav a{
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase;
+color: silver;
+line-height: 50px;
+margin-left: 10px;
+margin-right: 10px;
+
+z-index: 1;
+
+
+}
+header{
+display: flex;
+justify-content: center;
+}
+a:hover{
+color: darkgrey;
+background-color: indianred;
+
+border-radius: 5px;
+
+
+}
+.box{
+width: 350px;
+height: 450px;
+background-color: wheat;
+border-radius: 5px;
+box-shadow: 5px 10px #888888;
+}
+
+.boxes{
+display: flex;
+justify-content: space-around;
+margin-top: 60px;
+
+}
+.cartbackground{
+background-color: white;
+height: 50px;
+border-radius: 5px;
+width: 300px;
+text-align: center;
+margin: auto;
+
+}
+.totalcart{
+display: flex;
+justify-content: right;
+align-items: center;
+
+
+
+
+}
+.fas.fa-cart-arrow-down.fa-2x{
+margin: 10px;
+
+}
+#inbox img{
+width: 200px;
+height: 200px;
+margin-left: 60px;
+padding: 10px;
+}
+.btn-plus{
+margin-left: 145px;
+background-color: transparent;
+padding: 0;
+border: none;
+background: none;
+}
+.btn-minus{
+background-color: transparent;
+padding: 0;
+border: none;
+background: none;
+}
+.heartBtn{
+border: transparent;
+margin-left: 130px;
+}
+
+
+
+button .fas.fa-window-close{
+border: transparent;
+}
+.closeIcon{
+background-color: transparent;
+padding: 0;
+border: transparent;
+background: transparent;
+}
+span{
+font-size: 30px;
+}
+.price{
+font-size: 30px;
+margin-left: 145px;
+}
+
+#inbox img{
+width: 200px;
+height: 200px;
+margin-left: 60px;
+padding: 10px;
+background: transparent;
+}
